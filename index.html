@@ -3,9 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>HTML Boilerplate with Tailwind</title>
-    <link rel="stylesheet" type="text/tailwindcss" href="/css/styles.css" />
+    <title></title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          // Tailwindcss theme configuration
+          // See: https://tailwindcss.com/docs/theme
+        }
+      }
+    </script>
+    <style text="text/tailwindcss">
+      /* Custom styling. @apply directive works here. */
+    </style>
     <script type="module" src="/js/main.js" defer></script>
   </head>
 

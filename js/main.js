@@ -1,9 +1,1 @@
-tailwind.config = {
-  theme: {
-    extend: {
-      colors: {
-        clifford: '#da373d',
-      },
-    },
-  },
-}
+document.title = 'HTML Boilerplate with Tailwind'
