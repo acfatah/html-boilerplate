@@ -4,35 +4,170 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>HTML Boilerplate with Tailwind</title>
-    <link rel="stylesheet" type="text/tailwindcss" href="/css/styles.css"></link>
+    <link rel="stylesheet" type="text/tailwindcss" href="/css/styles.css" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
     <script type="module" src="/js/main.js" defer></script>
   </head>
+
   <body>
-    <div class="prose text-clifford">
-      <h1>Hello world!</h1>
+    <div class="prose container m-auto">
+      <header>
+        <h1>HTML Elements Demonstration</h1>
+        <p>This page showcases various HTML elements without any styling.</p>
+      </header>
 
-      <p>
-        Lorem ipsum odor amet, consectetuer adipiscing elit. Molestie etiam
-        tortor molestie ut vestibulum montes hendrerit. Praesent gravida class
-        quis mauris phasellus. Euismod dui viverra faucibus velit sodales
-        gravida. Porttitor pulvinar nibh lacus ad sollicitudin cras euismod.
-        Volutpat eu massa suscipit; luctus urna vivamus convallis. Eleifend
-        sociosqu etiam facilisi phasellus molestie aliquet fringilla. Proin
-        senectus fringilla rutrum nulla inceptos; sagittis pretium pulvinar.
-      </p>
+      <!-- Headings -->
+      <section>
+        <h2>Headings</h2>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+      </section>
 
-      <p>
-        Conubia litora quisque tellus ligula dolor fermentum curae ullamcorper.
-        Turpis nec curabitur imperdiet lacus ornare mus. Curabitur class dis
-        varius neque proin rhoncus eu. Lacinia amet sociosqu mollis, est quam
-        curabitur sed nibh. Molestie rutrum pulvinar morbi sollicitudin id amet.
-        Condimentum sodales ridiculus proin turpis parturient odio. Ligula
-        rhoncus commodo leo pellentesque diam commodo nunc. Duis at efficitur
-        maximus maximus et aptent. At vitae senectus enim, curabitur suspendisse
-        luctus sociosqu. Senectus fermentum aliquam montes ridiculus
-        sollicitudin placerat.
-      </p>
+      <!-- Basic Typography -->
+      <section>
+        <h2>Basic Typography</h2>
+        <p>This is a paragraph. It is a basic block of text in HTML.</p>
+        <p><strong>This is bold text.</strong></p>
+        <p><em>This is italic text.</em></p>
+        <p><u>This is underlined text.</u></p>
+        <p><mark>This is highlighted text.</mark></p>
+        <p><small>This is small text.</small></p>
+        <p>This text includes a <a href="#">link</a>.</p>
+      </section>
+
+      <!-- Lists -->
+      <section>
+        <h2>Lists</h2>
+        <h3>Unordered List</h3>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+
+        <h3>Ordered List</h3>
+        <ol>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ol>
+
+        <h3>Description List</h3>
+        <dl>
+          <dt>HTML</dt>
+          <dd>Hypertext Markup Language</dd>
+          <dt>CSS</dt>
+          <dd>Cascading Style Sheets</dd>
+        </dl>
+      </section>
+
+      <!-- Media -->
+      <section>
+        <h2>Media</h2>
+        <figure>
+          <img src="https://via.placeholder.com/150" alt="Placeholder image" />
+          <figcaption>Sample image</figcaption>
+        </figure>
+        <video controls>
+          <source src="sample-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <audio controls>
+          <source src="sample-audio.mp3" type="audio/mp3" />
+          Your browser does not support the audio tag.
+        </audio>
+      </section>
+
+      <!-- Table -->
+      <section>
+        <h2>Table</h2>
+        <table border="1">
+          <caption>
+            Sample Table
+          </caption>
+          <thead>
+            <tr>
+              <th>Header 1</th>
+              <th>Header 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Row 1, Cell 1</td>
+              <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+              <td>Row 2, Cell 1</td>
+              <td>Row 2, Cell 2</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Form Elements -->
+      <section>
+        <h2>Form Elements</h2>
+        <form>
+          <label for="text">Text:</label>
+          <input type="text" id="text" name="text" /><br />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" /><br />
+
+          <label for="number">Number:</label>
+          <input type="number" id="number" name="number" /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br />
+
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" /><br />
+
+          <label for="color">Color:</label>
+          <input type="color" id="color" name="color" /><br />
+
+          <label for="checkbox">Checkbox:</label>
+          <input type="checkbox" id="checkbox" name="checkbox" /><br />
+
+          <label for="radio1">Radio 1:</label>
+          <input type="radio" id="radio1" name="radio" /><br />
+
+          <label for="radio2">Radio 2:</label>
+          <input type="radio" id="radio2" name="radio" /><br />
+
+          <label for="select">Select:</label>
+          <select id="select" name="select">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option></select
+          ><br />
+
+          <label for="textarea">Textarea:</label>
+          <textarea id="textarea" name="textarea"></textarea><br />
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <!-- Semantic Elements -->
+      <section>
+        <h2>Semantic Elements</h2>
+        <article>
+          <h3>Article</h3>
+          <p>This is an article section.</p>
+        </article>
+        <aside>
+          <h3>Aside</h3>
+          <p>This is an aside section.</p>
+        </aside>
+        <footer>
+          <p>This is the footer of the page.</p>
+        </footer>
+      </section>
     </div>
   </body>
 </html>
