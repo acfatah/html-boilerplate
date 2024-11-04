@@ -83,11 +83,11 @@ npx tiged acfatah/html-boilerplate#tailwind
   h4 > small,
   h5 > small,
   h6 > small {
-    @apply font-thin;
+    @apply font-light;
   }
 
   blockquote > cite {
-    @apply block text-xs font-light;
+    @apply block text-sm font-light;
   }
 
   h1 > hr,
@@ -97,6 +97,10 @@ npx tiged acfatah/html-boilerplate#tailwind
   h5 > hr,
   h6 > hr {
     @apply !mt-2 !mb-0;
+  }
+
+  table > caption {
+    @apply text-neutral-500 dark:text-neutral-400 caption-bottom;
   }
 
   fieldset {
@@ -113,7 +117,7 @@ npx tiged acfatah/html-boilerplate#tailwind
   }
 
   form > [role='help'] {
-    @apply relative -top-1 text-gray-400;
+    @apply relative -top-1 text-neutral-500 dark:text-neutral-400;
   }
 
   form > [role='alert'] {
@@ -147,26 +151,30 @@ npx tiged acfatah/html-boilerplate#tailwind
   input[type='date'],
   select,
   textarea {
-    @apply border rounded-xl border-gray-300 text-foreground bg-background hover:border-blue-500 hover:bg-opacity-50 focus:bg-gray-50 dark:focus:bg-gray-900;
+    @apply border rounded-xl border-neutral-300 text-foreground bg-background hover:border-blue-500 hover:bg-opacity-50 focus:bg-neutral-50 dark:focus:bg-neutral-900;
   }
 
   .dark input[type='date']::-webkit-calendar-picker-indicator {
     filter: invert(1);
   }
 
+  input::placeholder {
+    @apply text-neutral-500;
+  }
+
   input:disabled,
   select:disabled,
   textarea:disabled {
-    @apply opacity-50 cursor-not-allowed hover:border-gray-300 hover:bg-none;
+    @apply opacity-50 cursor-not-allowed hover:border-neutral-300 hover:bg-none;
   }
 
   button[type='reset'],
   button[type='submit'] {
-    @apply border rounded-xl sm:px-4 sm:max-w-min border-gray-300 hover:bg-gray-50 hover:border-blue-500 dark:hover:bg-gray-900;
+    @apply border rounded-xl sm:px-4 sm:max-w-min border-neutral-300 hover:bg-neutral-50 hover:border-blue-500 dark:hover:bg-neutral-900;
   }
 
   button[type='reset'] {
-    @apply text-gray-500 dark:text-gray-400;
+    @apply text-neutral-500 dark:text-neutral-400;
   }
 </style>
 ```
