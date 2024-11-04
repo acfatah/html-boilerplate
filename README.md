@@ -77,6 +77,28 @@ npx tiged acfatah/html-boilerplate#tailwind
     @apply p-2 sm:p-4 text-foreground bg-background;
   }
 
+  h1 > small,
+  h2 > small,
+  h3 > small,
+  h4 > small,
+  h5 > small,
+  h6 > small {
+    @apply font-thin;
+  }
+
+  blockquote > cite {
+    @apply block text-xs font-light;
+  }
+
+  h1 > hr,
+  h2 > hr,
+  h3 > hr,
+  h4 > hr,
+  h5 > hr,
+  h6 > hr {
+    @apply !mt-2 !mb-0;
+  }
+
   fieldset {
     @apply p-2 sm:p-4 border-2 border-border rounded-xl;
   }
