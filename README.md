@@ -85,7 +85,8 @@ npx tiged acfatah/html-boilerplate#tailwind
     @apply p-2 text-lg font-bold;
   }
 
-  fieldset, form {
+  fieldset,
+  form {
     @apply flex flex-col gap-2;
   }
 
