@@ -4,11 +4,27 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>HTML Elements Demonstration</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@unocss/reset/tailwind.min.css" />
     <link rel="stylesheet" type="text/css" href="/css/styles.css"></link>
+    <script type="module">
+      import unocsspresetTypography from 'https://cdn.jsdelivr.net/npm/@unocss/preset-typography/+esm'
+
+      window.__unocss = {
+        rules: [
+          // custom rules...
+        ],
+        presets: [
+          unocsspresetTypography
+          // custom presets...
+        ],
+        // ...
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime" defer></script>
     <script type="text/javascript" src="/js/main.js" defer></script>
   </head>
 
-  <body>
+  <body class="prose">
     <header>
       <h1>HTML Elements Demonstration</h1>
       <p>This page showcases various HTML elements without any styling.</p>
