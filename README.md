@@ -1,16 +1,16 @@
-# HTML Boilerplate with Tailwindcss
+# HTML Boilerplate with Tailwindcss (Version 3)
 
 <p>
-  <a href="https://github.com/acfatah/html-boilerplate/commits/tailwind">
-  <img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/acfatah/html-boilerplate?display_timestamp=committer&style=flat-square"></a>
+  <a href="https://github.com/acfatah/html-boilerplate/commits/tailwind-v3">
+  <img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/acfatah/html-boilerplate/tailwind-v3?display_timestamp=committer&style=flat-square"></a>
 </p>
 
-HTML Boilerplate with [Tailwindcss](https://tailwindcss.com)
+HTML Boilerplate with [Tailwindcss V3](https://v3.tailwindcss.com/)
 
 ## Usage
 
 ```bash
-npx tiged acfatah/html-boilerplate#tailwind
+npx tiged acfatah/html-boilerplate#tailwind-v3
 ```
 
 ## CDN
