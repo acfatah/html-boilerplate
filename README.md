@@ -1,14 +1,14 @@
-# HTML Boilerplate
+# HTML Boilerplate with Water.css
 
 <p>
-  <a href="https://github.com/acfatah/html-boilerplate/commits/plain">
-  <img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/acfatah/html-boilerplate/plain?display_timestamp=committer&style=flat-square"></a>
+  <a href="https://github.com/acfatah/html-boilerplate/commits/watercss">
+  <img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/acfatah/html-boilerplate/watercss?display_timestamp=committer&style=flat-square"></a>
 </p>
 
-Better plain html page. Inspired by [this](http://bettermotherfuckingwebsite.com).
+HTML Boilerplate with [Water.css](https://watercss.kognise.dev).
 
 ## Usage
 
 ```bash
-npx tiged acfatah/html-boilerplate#plain
+npx tiged acfatah/html-boilerplate#watercss
 ```
