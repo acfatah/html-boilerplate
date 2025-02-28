@@ -5,7 +5,10 @@
   <img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/acfatah/html-boilerplate/tailwind-v3?display_timestamp=committer&style=flat-square"></a>
 </p>
 
-HTML Boilerplate with [Tailwindcss V3](https://v3.tailwindcss.com/)
+HTML Boilerplate with [Tailwindcss v3](https://v3.tailwindcss.com/).
+
+> [!IMPORTANT]  
+> Currently the cdn of version 4 is not available. See https://cdn.tailwindcss.com/4.
 
 ## Usage
 
